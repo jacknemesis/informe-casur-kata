@@ -1,0 +1,9 @@
+{
+  "name": "informe-casur-kata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Informe Kata en Linea · Trazabilidad 2024-2026 · CASUR x Cloud City",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/ && cp -R assets dist/assets"
+  }
+}
